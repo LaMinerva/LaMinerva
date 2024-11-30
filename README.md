@@ -24,6 +24,10 @@ Stay tuned for some cool projects!  ☎️
 
 📫 Feel free to reach out if you want to chat about books, philosophy, or even just life in general. Let’s connect! 😄  
 
+You can also finde me in ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖
+Goodreads ➜ https://www.goodreads.com/user/show/77592887-jok-t-mur
+Linkedin ➜ linkedin.com/in/joachim-o-0337b9123
+
 <!---
 LaMinerva/LaMinerva is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
