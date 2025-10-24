@@ -18,12 +18,12 @@
   <img src="./assets/download.svg" />
 </p>
 
-<img src="./assets/smallcolumn.png" width="180" height="300" />
+<img src="./assets/smallcolumn.png" width="175" height="300" />
   <img
     src="https://minerva-stats.vercel.app/api?username=LaMinerva&count_private=true&include_all_commits=true&show_icons=true&hide_border=true&theme=radical&cache_seconds=14400"
     alt="GitHub Stats (private+public)"
     height="192" />
-<img src="./assets/smallcolumn.png" width="200" height="300" />
+<img src="./assets/smallcolumn.png" width="175" height="300" />
 </div>
 
 <p align="center">
