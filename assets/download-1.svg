@@ -1,0 +1,52 @@
+<!-- assets/title.svg -->
+<svg viewBox="0 0 1200 220" width="1200" height="220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LaMinerva">
+  <title>LaMinerva</title>
+  <defs>
+    <!-- Crimson gradient for strokes/fills -->
+    <linearGradient id="crimson" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff355e"></stop>
+      <stop offset="50%" stop-color="#dc143c"></stop>
+      <stop offset="100%" stop-color="#b30f2b"></stop>
+    </linearGradient>
+    <!-- Magenta accent for inner elements -->
+    <linearGradient id="magenta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2a6d"></stop>
+      <stop offset="100%" stop-color="#b300ff"></stop>
+    </linearGradient>
+    <!-- Soft neon glow -->
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"></feGaussianBlur>
+      <feMerge><feMergeNode in="b"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Pitch black background -->
+  <rect width="1200" height="220" fill="#000000"></rect>
+
+  <!-- Subtle crimson scanline -->
+  <rect x="0" y="168" width="1200" height="2" fill="url(#crimson)" opacity="0.9"></rect>
+
+  <!-- Title -->
+  <text x="60" y="120" font-family="Inter, Segoe UI, Roboto, Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="0.4px" fill="url(#crimson)" filter="url(#glow)">
+    LaMinerva
+  </text>
+
+  <!-- Red shield badge with SPIRAL (no cross) -->
+  <g transform="translate(1060,110)">
+    <!-- shield outline -->
+    <path d="M0,-58 L36,-40 L36,0 C36,28 12,44 0,52 C-12,44 -36,28 -36,0 L-36,-40 Z" fill="none" stroke="url(#crimson)" stroke-width="3" filter="url(#glow)"></path>
+    <!-- translucent inner fill -->
+    <path d="M0,-50 L30,-35 L30,-2 C30,20 10,34 0,40 C-10,34 -30,20 -30,-2 L-30,-35 Z" fill="#dc143c" opacity="0.18"></path>
+
+    <!-- Spiral (decreasing radius arc chain, clockwise) -->
+    <path d="
+      M 0 -26
+      A 26 26 0 0 1 26 0
+      A 22 22 0 0 1 0 22
+      A 18 18 0 0 1 -18 0
+      A 14 14 0 0 1 0 -14
+      A 10 10 0 0 1 10 0
+      A 6 6   0 0 1 0 6
+      A 3 3   0 0 1 -3 0" fill="none" stroke="url(#magenta)" stroke-width="2.6" filter="url(#glow)" opacity="0.98"></path>
+  </g>
+</svg>
