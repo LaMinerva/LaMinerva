@@ -112,7 +112,7 @@
 <!-- Compact About / Contact -->
 <div align="center" >
   <sub>
-    Philosophy and software architect student having fun reading, writing, coding, learning and training 
+    Philosophy and software architect student having fun reading, writing, coding, learning and training. <br>Auf Wiedersehen
     <img src="./assets/sleepy.gif" width="70" />
   </sub>
 </div>
