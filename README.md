@@ -59,7 +59,7 @@ STREAK
   <img src="./assets/download.svg" />
   <img src="./assets/download.svg" />
 
-TECH STACK (with which I want to play next)
+WISH LIST (with which I want to play next)
 <img src="./assets/download.svg" />
 
   <img src="./assets/React.svg" width="70"/>
